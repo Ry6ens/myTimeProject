@@ -29,16 +29,16 @@ function setBackgroundGreeting() {
     let today = new Date ()
         hour = today.getHours()
     if (hour < 12) {
-        document.body.style.backgroundImage = "url('../img/morning.jpg')"
+        document.body.style.backgroundImage = "url('./img/morning.jpg')"
         document.body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Morning'
     } else if (hour < 18) {
-        document.body.style.backgroundImage = "url('../img/afternoon.jpg')"
+        document.body.style.backgroundImage = "url('./img/afternoon.jpg')"
         document.body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Afternoon'
         document.body.style.color = 'white'
     } else {
-        document.body.style.backgroundImage = "url('../img/evening.jpg')"
+        document.body.style.backgroundImage = "url('./img/evening.jpg')"
         document.body.style.backgroundSize = 'cover'
         greeting.textContent = 'Good Evening'
         document.body.style.color = 'white'
